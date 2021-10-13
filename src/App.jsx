@@ -10,7 +10,7 @@ const App = () => {
   const dispatchGreetiing = () => {
     dispatch({
       type: "CHANGE_GREETING",
-      payload: newGreeting,
+      payload: { greeting: newGreeting },
     });
   };
   return (
